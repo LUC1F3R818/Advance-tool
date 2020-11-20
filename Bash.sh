@@ -1,4 +1,4 @@
-green='\033[32;1m'
+
 figlet Cyber bullet  |lolcat
 password='Cyber bullet'
 Username='Cyber bullet'
@@ -10,13 +10,13 @@ figlet "Welcome to Myanmar"|lolcat
 
 else
 echo ""
-echo "Myanmar Script kiddies" |lolcat
-figlet wrong password Ma a loe |lolcat
+echo "Myanmar Script kiddies"
+figlet 'wrong password Ma a loe'
 
 exit
 fi
 
-figlet B4NDU14 |lolcat
+figlet B4NDU14 
 echo -e "\e[1;32m Myanmar script kiddies \e[0m"
 echo -e "\e[1;32m Sayar Yell Phone Naing \e[0m"
 echo -e "\e[1;32m Easily install the best tools"
@@ -38,7 +38,7 @@ read -p "Choose a number~#!" act
 if [ $act = 1 ] || [ $act = 1 ]
 then
 clear
-figlet sqlmap |lolcat
+figlet sqlmap
 apt update
 apt upgrade
 apt install git
@@ -54,7 +54,7 @@ fi
 if [ $act = 2 ] || [ $act = 02 ]
 then
 clear
-figlet B4NDU14 |lolcat
+figlet B4NDU14 
 apt update
 apt upgrade
 git clone https://github.com/remo7777/T-Header
@@ -66,7 +66,7 @@ fi
 if [ $act = 3 ] || [ $act = 03 ]
 then
 clear
-figlet Cyber bullet |lolcat
+figlet Cyber bullet
 apt update
 apt upgrade
 apt install git
@@ -79,7 +79,7 @@ fi
 if [ $act = 4 ] || [ $act = 04 ]
 then
 clear
-figlet OXYG3N |lolcat
+figlet OXYG3N 
 pkg update && pkg upgrade 
  pkg install bash
  pkg install python
@@ -95,7 +95,7 @@ fi
 if [ $act = 5 ] || [ $act = 05 ]
 then
 clear
-figlet Myanmar B14CK 4TT4CK3R Team |lolcat
+figlet Myanmar B14CK 4TT4CK3R Team 
 pkg install unstable-repo
 pkg install metasploit
 fi
@@ -104,7 +104,7 @@ fi
 if [ $act = 6 ] || [ $act = 06 ]
 then
 clear
-figlet Myanmar |lolcat
+figlet Myanmar 
 apt update
 apt upgrade
 apt install git
@@ -118,7 +118,7 @@ fi
 if [ $act = 7 ] || [ $act = 07 ]
 then
 clear
-figlet Error |lolcat
+figlet Error 
 apt update && apt upgrade -y
 apt install python
 apt install python2
@@ -132,7 +132,7 @@ fi
 if [ $act = 8 ] || [ $act = 08 ]
 then
 clear
-figlet Ma a loe |lolcat
+figlet Ma a loe 
 apt update
 apt upgrade
 apt install git
@@ -145,7 +145,7 @@ fi
 if [ $act = 9 ] || [ $act = 09 ]
 then
 clear
-figlet B14CK H4T |lolcat
+figlet B14CK H4T 
 apt update && apt upgrade
 apt install git
 apt install python2
@@ -158,14 +158,13 @@ fi
 if [ $act = 10 ] || [ $act = 100 ]
 then
 clear
-figlet Cyber Bullet |lolcat
+figlet Cyber Bullet 
 pkg install libcaca
 cacafire
 fi
 
 if [ $act = 0 ] || [ $act = 00 ]
 then
-cd /$HOME
 figlet Bye Bye|lolcat
 exit
 fi
