@@ -1,12 +1,12 @@
 
-figlet Cyber bullet  |lolcat
+figlet Cyber bullet 
 password='Cyber bullet'
 Username='Cyber bullet'
 read -p "Username:" Name
 read -sp "Password:" Password
 if [[ $Name == $Username || $Password == $password ]];then
 echo ""
-figlet "Welcome to Myanmar"|lolcat
+figlet "Welcome to Myanmar "
 
 else
 echo ""
