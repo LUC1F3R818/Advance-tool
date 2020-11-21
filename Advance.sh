@@ -3,7 +3,7 @@ password='Cyber bullet'
 Username='Cyber bullet'
 read -p "Username:" Name
 read -sp "Password:" Password
-if [[ $Name == $Username || $Password == $password ]];then
+if [[ $Name == $Username && $Password == $password ]];then
 echo ""
 figlet 'Welcome to Myanmar'
 
