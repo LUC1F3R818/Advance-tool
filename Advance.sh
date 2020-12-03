@@ -1,6 +1,6 @@
 figlet 'Cyber bullet'
-password='Cyber bullet'
-Username='Cyber bullet'
+password='Cyberbullet'
+Username='Cyberbullet'
 read -p "Username:" Name
 read -sp "Password:" Password
 if [[ $Name == $Username && $Password == $password ]];then
